@@ -1,5 +1,8 @@
 # Palette-Extractor
 This program will make a palette image from an input image, and then save it. 
+
+To download compiled executable: Make sure you have both RAR volumes, Part1 and Part2, then extract with WinRAR.
+
 Algorithm used is: Resize picture to [user specified, default 50x50, unless input is smaller] -> Convert to 0-255 RGB space -> 
 Round each pixel colour value to nearest [user specified, default 35] -> Pull all unique colour values and put them in a list -> 
 Check each colour value in that list for distance in RGB space from each other, removing ones that are closer than [user specified, default 110] -> 
